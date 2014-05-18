@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title:	验证码识别工具tesseract
 category: blog
 description: 
