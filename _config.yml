@@ -1,0 +1,14 @@
+# Site settings
+auto: true
+title: Hilojack Blog
+email: a132811@gmail.com
+description: "从hilojack.sinaapp.com 搬过来了"
+baseurl: ""
+url: "http://hilojack.com"
+username: hilojack
+
+# Build settings
+markdown: kramdown
+paginate: 4
+paginate_path: "p:num"
+permalink: /p/:title/
