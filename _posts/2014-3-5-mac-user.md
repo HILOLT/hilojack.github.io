@@ -1,6 +1,6 @@
 ---
 layout: page
-title:	
+title:	mac user manager
 category: blog
 description: 
 ---

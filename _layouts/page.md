@@ -46,9 +46,11 @@ layout: default
 <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
 <hr/>
 
- 
-<div class="trigger">
-<!--{% for page in site.pages %}
-  <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-{% endfor %}->
+<div class="post-page"> 
+    <div class="post-page-left">
+        <a href="{{ page.previous.url }}">{{ page.previous.title }}</a>
+    </div>
+    <div class="post-page-right">
+        <a href="{{ page.next.url }}">{{ page.next.title }}</a>
+    </div>
 </div>

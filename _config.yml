@@ -1,13 +1,13 @@
 # Site settings
 title: Hilojack Blog
 email: a132811@gmail.com
-description: "从hilojack.sinaapp.com 搬过来了"
+description: 'Coder'
 baseurl: ""
 url: "http://hilojack.com"
 username: hilojack
 
 # Build settings
 markdown: kramdown
-paginate: 4
-paginate_path: "p:num"
-permalink: /p/:title/
+paginate: 5 
+paginate_path: "/p:num"
+permalink: /p/:title
