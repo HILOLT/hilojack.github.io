@@ -11,8 +11,8 @@ version = 6
 project_name = 'jk'
 
 -- File and folder filters:
-folder_filter_mode = include -- { include, exclude }
-folder_filter += 
+folder_filter_mode = exclude -- { include, exclude }
+folder_filter += _site
 file_filter += 
 file_ignore_pattern += 
 
